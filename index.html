@@ -1,3 +1,4 @@
+$html = @'
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,16 +9,12 @@
 </head>
 <body>
   <header>
-<<<<<<< HEAD
-    <h1 class="logo">Cafe Aroma</h1>
+    <h1 class="logo">Café Aroma</h1>
     <nav>
       <a href="index.html">Inicio</a>
       <a href="menu.html">Menú</a>
       <a href="contacto.html">Contacto</a>
     </nav>
-=======
-    <h1>Café Aroma</h1>
->>>>>>> hotfix/titulo-pagina
   </header>
 
   <main>
@@ -36,3 +33,5 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+'@
+[IO.File]::WriteAllText("$PWD\index.html", $html)
