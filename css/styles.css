@@ -1,12 +1,12 @@
 /* ===== BASE ===== */
 * { box-sizing: border-box; }
-body { font-family: Arial, sans-serif; margin: 0; background: #f5f0e6; color: #333; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f5f0e6; color: #212121; }
 main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
 
 /* ===== CABECERA ===== */
 header {
-  background: #4e342e;
-  color: #cccccc;
+  background: #3e2723;
+  color: #ffffff;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -29,5 +29,4 @@ button { padding: .7rem; background: #4e342e; color: #fff; border: 0; border-rad
 #estado { color: #b00020; min-height: 1.2em; }
 
 /* ===== FOOTER ===== */
-footer { background: #3e2723; color: #f5f0e6; text-align: center; padding: 1.5rem 1rem; margin-top: 3rem; }
-footer a { color: #ffcc80; }
+footer { background:
